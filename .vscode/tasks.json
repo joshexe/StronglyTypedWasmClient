@@ -7,7 +7,8 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/StronglyTypedWasmClient.sln",
+                "--project",
+                "${workspaceFolder}/src/Server/StronglyTypedWasmClient.Server.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +20,8 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/StronglyTypedWasmClient.sln",
+                "--project",
+                "${workspaceFolder}/src/Server/StronglyTypedWasmClient.Server.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +34,8 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/src/StronglyTypedWasmClient.sln",
+                "--project",
+                "${workspaceFolder}/src/Server/StronglyTypedWasmClient.Server.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

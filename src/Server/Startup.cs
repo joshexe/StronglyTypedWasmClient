@@ -60,7 +60,7 @@ namespace StronglyTypedWasmClient.Server
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
-                endpoints.MapHub<CounterHub>("/counterHub");
+                endpoints.MapHub<CounterHub>("/CounterHub");
                 endpoints.MapFallbackToFile("index.html");
             });
         }
