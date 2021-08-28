@@ -1,5 +1,4 @@
 using System.Threading.Tasks;
-using StronglyTypedWasmClient.Shared.Interfaces;
 
 namespace StronglyTypedWasmClient.Client.Interfaces
 {

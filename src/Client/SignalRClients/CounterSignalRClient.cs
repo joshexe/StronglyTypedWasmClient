@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using StronglyTypedWasmClient.Client.Interfaces;
-using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.AspNetCore.Components;
 

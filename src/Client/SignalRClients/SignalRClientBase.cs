@@ -32,11 +32,11 @@ namespace StronglyTypedWasmClient.Client.SignalRClients
 
         public async Task Start()
         {
-            // if (!Started)
-            // {
-            await HubConnection.StartAsync();
-            Started = true;
-            //}
+            if (!Started)
+            {
+                await HubConnection.StartAsync();
+                Started = true;
+            }
         }
     }
 }
